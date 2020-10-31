@@ -3000,8 +3000,8 @@ W = angled&lt;p&gt;
 <part name="J3" library="284512-8" deviceset="284512-8" device=""/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
-<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -3056,9 +3056,9 @@ W = angled&lt;p&gt;
 <part name="U$5" library="ESC_to_Backplane_Connectors" deviceset="ESC2BACKPLANE" device=""/>
 <part name="J12" library="284512-8" deviceset="284512-8" device=""/>
 <part name="J1" library="284512-4" deviceset="284512-4" device=""/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="26.7KOHM" device="0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="26.7k"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="26.7KOHM" device="0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="22k"/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="5k"/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3530,6 +3530,11 @@ W = angled&lt;p&gt;
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="115.57" y1="123.19" x2="115.57" y2="118.11" width="0.1524" layer="91"/>
 <label x="113.03" y="115.57" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="41.91" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<label x="29.21" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO_3" class="0">
@@ -4368,12 +4373,6 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-238.76" y1="111.76" x2="-238.76" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="41.91" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
