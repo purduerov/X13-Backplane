@@ -2317,12 +2317,6 @@ design rules under a new name.</description>
 <wire x1="15.08125" y1="12.97665" x2="12.941" y2="10.8364" width="0.2032" layer="16"/>
 <wire x1="15.08125" y1="51.435" x2="15.08125" y2="48.5648" width="0.2032" layer="1"/>
 </signal>
-<signal name="SWDIO_4">
-<contactref element="MUX" pad="4"/>
-</signal>
-<signal name="SWCLK_4">
-<contactref element="MUX" pad="11"/>
-</signal>
 <signal name="T1_PHS1">
 <contactref element="T1" pad="P$1"/>
 </signal>

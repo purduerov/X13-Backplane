@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3522,20 +3522,6 @@ CAP-09321</description>
 <pinref part="U$3" gate="G$3" pin="6"/>
 <wire x1="-176.276" y1="93.98" x2="-170.18" y2="93.98" width="0.1524" layer="91"/>
 <label x="-175.26" y="93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SWDIO_4" class="0">
-<segment>
-<pinref part="MUX" gate="G$1" pin="2Y3"/>
-<wire x1="-96.52" y1="77.47" x2="-106.68" y2="77.47" width="0.1524" layer="91"/>
-<label x="-106.68" y="77.47" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SWCLK_4" class="0">
-<segment>
-<pinref part="MUX" gate="G$1" pin="1Y3"/>
-<wire x1="-68.58" y1="72.39" x2="-58.42" y2="72.39" width="0.1524" layer="91"/>
-<label x="-68.58" y="72.39" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="T1_PHS1" class="0">
