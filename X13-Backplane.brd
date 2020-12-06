@@ -2583,7 +2583,8 @@ design rules under a new name.</description>
 <contactref element="C2" pad="1"/>
 <contactref element="J4" pad="4"/>
 <wire x1="52.07" y1="16.295" x2="54.2925" y2="16.295" width="0.2032" layer="1"/>
-<wire x1="54.49" y1="11.43" x2="54.2925" y2="16.295" width="0" layer="19" extent="1-1"/>
+<wire x1="54.49" y1="11.43" x2="54.49" y2="16.0975" width="0.2032" layer="1"/>
+<wire x1="54.49" y1="16.0975" x2="54.2925" y2="16.295" width="0.2032" layer="1"/>
 </signal>
 <signal name="SHIELD_3">
 <contactref element="J5" pad="4"/>
