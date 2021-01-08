@@ -3032,11 +3032,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-210.82" y1="-127" x2="-223.52" y2="-127" width="0.1524" layer="91"/>
 <label x="-223.52" y="-127" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="14"/>
-<wire x1="-257.81" y1="-109.22" x2="-238.76" y2="-109.22" width="0.1524" layer="91"/>
-<label x="-246.38" y="-109.22" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SWDIO_IN" class="0">
 <segment>
@@ -3048,11 +3043,6 @@ by exp-lbrs.ulp</description>
 <pinref part="J3" gate="G$1" pin="8"/>
 <wire x1="-210.82" y1="-129.54" x2="-223.52" y2="-129.54" width="0.1524" layer="91"/>
 <label x="-223.52" y="-129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="-257.81" y1="-106.68" x2="-238.76" y2="-106.68" width="0.1524" layer="91"/>
-<label x="-246.38" y="-106.68" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="PROG_2" class="0">
@@ -3397,9 +3387,37 @@ by exp-lbrs.ulp</description>
 <pinref part="U$4" gate="G$1" pin="13"/>
 </segment>
 </net>
+<net name="SWDIO_4" class="0">
+<segment>
+<pinref part="MUX" gate="G$1" pin="2Y3"/>
+<wire x1="-96.52" y1="77.47" x2="-106.68" y2="77.47" width="0.1524" layer="91"/>
+<label x="-106.68" y="77.47" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="14"/>
+<wire x1="-257.81" y1="-109.22" x2="-238.76" y2="-109.22" width="0.1524" layer="91"/>
+<label x="-246.38" y="-109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SWCLK_4" class="0">
+<segment>
+<pinref part="MUX" gate="G$1" pin="1Y3"/>
+<wire x1="-68.58" y1="72.39" x2="-58.42" y2="72.39" width="0.1524" layer="91"/>
+<label x="-68.58" y="72.39" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-257.81" y1="-106.68" x2="-238.76" y2="-106.68" width="0.1524" layer="91"/>
+<label x="-246.38" y="-106.68" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="12"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,-210.82,-116.84,PROG_2,,,,,"/>
+<approved hash="113,1,-261.122,-30.3174,DIST_TO_BACKPLANE,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
