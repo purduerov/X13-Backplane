@@ -2325,6 +2325,86 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Dist_POE">
+<packages>
+<package name="CONN2_282834-2_TEC" urn="urn:adsk.eagle:footprint:25763288/1">
+<pad name="1" x="0" y="0" drill="0.9652" diameter="1.7"/>
+<pad name="2" x="2.54" y="0" drill="0.9652" diameter="1.7"/>
+<wire x1="-1.6256" y1="-3.3782" x2="4.1656" y2="-3.3782" width="0.1524" layer="21"/>
+<wire x1="4.1656" y1="-3.3782" x2="4.1656" y2="3.3782" width="0.1524" layer="21"/>
+<wire x1="4.1656" y1="3.3782" x2="-1.6256" y2="3.3782" width="0.1524" layer="21"/>
+<wire x1="-1.6256" y1="3.3782" x2="-1.6256" y2="-3.3782" width="0.1524" layer="21"/>
+<wire x1="-1.4986" y1="-3.2512" x2="4.0386" y2="-3.2512" width="0.1524" layer="51"/>
+<wire x1="4.0386" y1="-3.2512" x2="4.0386" y2="3.2512" width="0.1524" layer="51"/>
+<wire x1="4.0386" y1="3.2512" x2="-1.4986" y2="3.2512" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="3.2512" x2="-1.4986" y2="-3.2512" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-3.81" x2="-1.905" y2="3.81" width="0.1524" layer="39"/>
+<wire x1="-1.905" y1="3.81" x2="4.445" y2="3.81" width="0.1524" layer="39"/>
+<wire x1="4.445" y1="3.81" x2="4.445" y2="-3.81" width="0.1524" layer="39"/>
+<wire x1="4.445" y1="-3.81" x2="-1.905" y2="-3.81" width="0.1524" layer="39"/>
+<text x="-1.905" y="-3.175" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-1.905" y="1.905" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="CONN2_282834-2_TEC" urn="urn:adsk.eagle:package:25763292/2" type="model">
+<packageinstances>
+<packageinstance name="CONN2_282834-2_TEC"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CONN2_282834-2">
+<pin name="1" x="-8.89" y="1.27" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-8.89" y="-1.27" visible="pad" length="middle" direction="pas"/>
+<wire x1="1.27" y1="1.27" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="2.1082" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-0.4318" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="0.4318" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="-2.1082" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.1524" layer="94"/>
+<text x="-4.7244" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="POE_TERMINAL" prefix="J">
+<gates>
+<gate name="A" symbol="CONN2_282834-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN2_282834-2_TEC">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25763292/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_UL_Team" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DESCRIPTION" value="TERMI-BLOK PCB MOUNT, 90 2P." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="282834-2" constant="no"/>
+<attribute name="PITCH_MM_" value="2.54" constant="no"/>
+<attribute name="POSITIONS" value="2" constant="no"/>
+<attribute name="PRODUCT" value="Terminal Block Headers &amp; Receptacles" constant="no"/>
+<attribute name="ROWS-CONFIG" value="1" constant="no"/>
+<attribute name="SOURCELIBRARY" value="TE_Connectivity-2018-03-16" constant="no"/>
+<attribute name="TE_PART_NUMBER" value="282834-2" constant="no"/>
+<attribute name="TYPE" value="Receptacle" constant="no"/>
+<attribute name="VENDOR" value="TE Connectivity" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2373,6 +2453,7 @@ by exp-lbrs.ulp</description>
 <part name="D3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" package3d_urn="urn:adsk.eagle:package:38441/1" value="0.5A/40V/420mV"/>
 <part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" package3d_urn="urn:adsk.eagle:package:38441/1" value="0.5A/40V/420mV"/>
 <part name="C5" library="Panasonic 47 uF cap - EEE-1CA470SP" deviceset="47UF-POLAR" device="-PANASONIC_D-35V-20%" package3d_urn="urn:adsk.eagle:package:24384400/2" value="47uF"/>
+<part name="J7" library="Dist_POE" deviceset="POE_TERMINAL" device="" package3d_urn="urn:adsk.eagle:package:25763292/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2530,6 +2611,9 @@ by exp-lbrs.ulp</description>
 <instance part="C5" gate="G$1" x="140.97" y="-54.61" smashed="yes">
 <attribute name="NAME" x="141.986" y="-53.975" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="141.986" y="-58.801" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="J7" gate="A" x="236.22" y="-88.9" smashed="yes">
+<attribute name="NAME" x="231.4956" y="-82.3214" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -2728,6 +2812,12 @@ by exp-lbrs.ulp</description>
 <pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="140.97" y1="-59.69" x2="140.97" y2="-68.58" width="0.1524" layer="91"/>
 <label x="138.43" y="-71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J7" gate="A" pin="2"/>
+<wire x1="227.33" y1="-90.17" x2="226.06" y2="-90.17" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-90.17" x2="226.06" y2="-93.98" width="0.1524" layer="91"/>
+<label x="226.06" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO_3" class="0">
@@ -2989,6 +3079,12 @@ by exp-lbrs.ulp</description>
 <pinref part="J5" gate="G$1" pin="1"/>
 <pinref part="J5" gate="G$1" pin="2"/>
 <label x="242.57" y="-113.03" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J7" gate="A" pin="1"/>
+<wire x1="227.33" y1="-87.63" x2="226.06" y2="-87.63" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-87.63" x2="226.06" y2="-83.82" width="0.1524" layer="91"/>
+<label x="226.06" y="-83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12V" class="0">
