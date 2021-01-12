@@ -214,16 +214,14 @@ Grant Geyer
 <wire x1="52.451" y1="125.222" x2="52.451" y2="115.951" width="0" layer="20"/>
 <wire x1="52.451" y1="115.951" x2="46.99" y2="115.951" width="0" layer="20"/>
 <polygon width="0.1524" layer="29">
-<vertex x="41.529" y="17.526"/>
-<vertex x="46.736" y="17.526"/>
+<vertex x="40.64" y="109.093"/>
+<vertex x="46.736" y="109.093"/>
 <vertex x="46.736" y="112.014"/>
 <vertex x="46.355" y="112.014"/>
 <vertex x="46.355" y="125.222"/>
 <vertex x="41.148" y="130.429"/>
 <vertex x="33.655" y="130.429"/>
 <vertex x="40.64" y="123.444"/>
-<vertex x="40.64" y="103.632"/>
-<vertex x="41.529" y="102.743"/>
 </polygon>
 <polygon width="0.1524" layer="29">
 <vertex x="42.164" y="130.175"/>
@@ -232,16 +230,9 @@ Grant Geyer
 <vertex x="63.246" y="127.254"/>
 <vertex x="58.166" y="127.254"/>
 <vertex x="58.166" y="112.141"/>
-<vertex x="62.357" y="107.95"/>
-<vertex x="62.357" y="103.759"/>
-<vertex x="61.722" y="103.124"/>
-<vertex x="61.722" y="63.246"/>
-<vertex x="62.103" y="62.865"/>
-<vertex x="62.103" y="17.272"/>
-<vertex x="56.769" y="17.272"/>
-<vertex x="56.769" y="68.453"/>
-<vertex x="56.388" y="68.834"/>
-<vertex x="56.388" y="106.553"/>
+<vertex x="60.3885" y="109.9185"/>
+<vertex x="59.69" y="109.22"/>
+<vertex x="53.721" y="109.22"/>
 <vertex x="53.213" y="109.728"/>
 <vertex x="53.213" y="127.254"/>
 <vertex x="45.085" y="127.254"/>
@@ -2000,6 +1991,32 @@ Grant Geyer
 <rectangle x1="67.0179" y1="65.5193" x2="69.3293" y2="65.5447" layer="200" rot="R90"/>
 <rectangle x1="67.1322" y1="65.532" x2="69.1642" y2="65.5574" layer="200" rot="R90"/>
 <rectangle x1="67.5767" y1="65.5447" x2="68.6689" y2="65.5701" layer="200" rot="R90"/>
+<polygon width="0.1524" layer="29">
+<vertex x="41.656" y="102.743"/>
+<vertex x="41.656" y="68.453"/>
+<vertex x="46.736" y="68.453"/>
+<vertex x="46.736" y="102.87"/>
+<vertex x="41.656" y="102.87"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="56.515" y="102.743"/>
+<vertex x="56.515" y="68.326"/>
+<vertex x="61.595" y="68.326"/>
+<vertex x="61.595" y="102.743"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="41.656" y="59.436"/>
+<vertex x="46.736" y="59.436"/>
+<vertex x="46.736" y="26.162"/>
+<vertex x="41.656" y="26.162"/>
+</polygon>
+<polygon width="0.1524" layer="29">
+<vertex x="56.896" y="59.309"/>
+<vertex x="61.976" y="59.309"/>
+<vertex x="61.976" y="26.797"/>
+<vertex x="61.976" y="26.416"/>
+<vertex x="56.896" y="26.416"/>
+</polygon>
 </plain>
 <libraries>
 <library name="BackplaneMUX">
